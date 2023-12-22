@@ -3,6 +3,7 @@ import { FooterThree, HeaderSix, Wrapper } from '../../layout';
 import { animationCreate } from '../../utils/utils';
 import Breadcrumb from '../common/breadcrumb/breadcrumb';
 import ContactArea from './contact-area';
+import { useRouter } from 'next/router';
 
 
 const Contact = () => {
@@ -12,12 +13,19 @@ const Contact = () => {
       animationCreate();
     }, 500);
   }, []);
+  const route = useRouter()
 
   return (
     <Wrapper>
-      {/* <HeaderSix /> */}
-      {/* <Breadcrumb title={'Contact'} /> */}
-      <ContactArea/>
+      {
+        route.pathname === "/contact" &&
+        <>
+          <HeaderSix />
+          <Breadcrumb title={'Contact'} />
+        </>
+      }
+
+      <ContactArea />
       <FooterThree />
     </Wrapper>
   );

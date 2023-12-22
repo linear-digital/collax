@@ -4,13 +4,14 @@ import ContactForm from '../forms/contact-form';
 const ContactArea = () => {
   return (
     <>
-      <div className="tp-contact-area pt-135 pb-130">
+      <div className="tp-contact-area pt-135 pb-130" id="contact">
         <div className="container">
           <div className="row">
             <div className="col-xl-6 col-lg-6 ">
               <div className="tp-contct-wrapper contact-space-40">
                 <div className="tp-contact-thumb mb-50">
                   <img src="/AAAA.png" alt="" style={{height: "300px"}} />
+                  <h4 style={{marginTop: "20px",}}>Kamrun Islam Kashem</h4>
                 </div>
                 <div className="tp-contact-info mb-40">
                   <h4 className="contact-title">Mail Address</h4>

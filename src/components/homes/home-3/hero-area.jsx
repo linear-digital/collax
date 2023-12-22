@@ -7,7 +7,7 @@ import VideoModal from '../../common/modals/modal-video';
 const hero_contents = {
   title: <>Collax helps your teams move work <span className="tp-highlight">
     <HighlightTwo /><i>forward.</i></span></>,
-  text: 'At collax we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast efficiency',
+  text: 'At Linear Graphic we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast efficiency',
   btn_text: 'How it Works',
   video_title: 'Behind the scenes',
   video_id: 'LJbkLdtEW00',

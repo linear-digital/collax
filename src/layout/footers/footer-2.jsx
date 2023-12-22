@@ -7,7 +7,7 @@ const footer_contents = {
     { num: 'two', img: '/assets/img/service/service-1.png' },
   ],
   title: 'Let’s build something together',
-  text: 'At Collax we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast efficiency',
+  text: 'At Linear Graphic we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast efficiency',
   btn_text: 'Contact us',
   copy_right_text: <>© {new Date().getFullYear()} Personal Portfolio , All Right Received.</>,
   copy_right_menu: ['Case Studies', 'Pricing Plan'],

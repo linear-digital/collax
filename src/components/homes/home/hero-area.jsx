@@ -3,10 +3,10 @@ import React from 'react';
 
 const hero_contents = {
   title: 'We make things look good',
-  text: <>At Collax we specialize in designing, building, shipping and scaling beautiful, <br />
+  text: <>At Linear Graphic we specialize in designing, building, shipping and scaling beautiful, <br />
     usable products with blazing-fast efficiency</>,
   btn_text: 'Visit Case Studies',
-  btn_text_2: 'About Collax',
+  btn_text_2: 'About Linear Graphic',
   social_links: [
     { id: 1, icon: 'fab fa-facebook-f social-icon-1', title: 'Facebook',link: 'http://facebook.com' },
     { id: 3, icon: 'fab fa-youtube social-icon-3', title: 'Youtube',link: 'https://www.youtube.com/' },
@@ -37,11 +37,8 @@ const HeroArea = () => {
                   </h2>
                   <p className="wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".8s">{text}</p>
                   <div className="tp-hero-button mb-140 wow tpfadeUp" data-wow-duration=".7s" data-wow-delay="1s">
-                    <Link href="/portfolio">
-                      <a className="tp-btn mr-30">{btn_text}</a>
-                    </Link>
-                    <Link href="/about-me">
-                      <a className="tp-btn-grey">{btn_text_2}
+                    <Link href="#contact">
+                      <a className="tp-btn-grey">Contact Us
                         <i className="far fa-arrow-right"></i></a>
                     </Link>
                   </div>

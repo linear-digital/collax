@@ -61,7 +61,7 @@ const ProjectArea = () => {
                         <a>Banking App Management</a>
                       </Link>
                     </h2>
-                    <p>At Collax we specialize in designing, building, shipping...</p>
+                    <p>At Linear Graphic we specialize in designing, building, shipping...</p>
                     <Link href={`/portfolio-details/${item.id}`}>
                       <a className="tp-btn-sm">View Case Studies <i className="far fa-arrow-right"></i></a>
                     </Link>

@@ -47,13 +47,13 @@ const FeatureArea = () => {
           <div className="ac-feature-border-top">
             <div className="row">
               <FeatureItem title={'Project kikoff'}
-                subtitle={'At collax we specialize designing building, shipping...'} />
+                subtitle={'At Linear Graphic we specialize designing building, shipping...'} />
               <FeatureItem title={'PIdeation'} color={'2'}
-                subtitle={'At collax we specialize designing building, shipping...'} />
+                subtitle={'At Linear Graphic we specialize designing building, shipping...'} />
               <FeatureItem title={'Design Process'} color={'3'}
-                subtitle={'At collax we specialize designing building, shipping...'} />
+                subtitle={'At Linear Graphic we specialize designing building, shipping...'} />
               <FeatureItem title={'Development'} color={'4'}
-                subtitle={'At collax we specialize designing building, shipping...'} />
+                subtitle={'At Linear Graphic we specialize designing building, shipping...'} />
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ import VideoModal from '../../common/modals/modal-video';
 const hero_contents = {
   shapes: [{ img: 'hero-shape-4' }, { num: '-two', img: 'hero-shape-4.1' }],
   title: <>Building Digital <span className="tp-highlight"> <HighlightTwo /> <i>Product,</i></span> Brand and Experience</>,
-  text: 'At collax we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast efficiency',
+  text: 'At Linear Graphic we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast efficiency',
   btn_text: 'How it Works',
   video_title: 'Behind the scenes',
   video_id: 'LJbkLdtEW00',

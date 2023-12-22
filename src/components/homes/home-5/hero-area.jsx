@@ -12,7 +12,7 @@ const hero_contents = {
   subtitle: <>Offer is going on till friday , <b>$84,99</b><span>/mo</span></>,
   title: 'Business Planing',
   highlight_text: 'Advisors',
-  short_text: <>At collax we specialize in designing, building, shipping and scaling <br /> beautiful, usable products with blazing.</>,
+  short_text: <>At Linear Graphic we specialize in designing, building, shipping and scaling <br /> beautiful, usable products with blazing.</>,
   hero_img: '/assets/img/hero/hero-5.1.png',
   social_links: [
     { num: 1, icon: 'fab fa-facebook-f social-icon-1', title: 'Facebook',link: 'http://facebook.com' },

@@ -12,7 +12,7 @@ const contents = {
   title: 'We provide the best',
   highlight_text: 'solution for',
   text_1: 'By understanding the client,s condition and leveraging our experience and knowledge. we support reform by recommending the most appropriate methods and sesources.',
-  text_2: 'At collax we specialize in designing, building, shipping and scaling beautiful, usable products with blazing.',
+  text_2: 'At Linear Graphic we specialize in designing, building, shipping and scaling beautiful, usable products with blazing.',
   btn_text: 'About Collax'
 }
 

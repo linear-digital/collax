@@ -5,7 +5,7 @@ import SocialLinks from '../social-links';
 const footer_contents = {
   shapes: ['footer/testimonial-shape-5.4.png', 'footer/team-shape-5.3.png'],
   title: 'Discover our collax inner system',
-  sm_text: 'At Collax we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast efficiency',
+  sm_text: 'At Linear Graphic we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast efficiency',
   btn_text: "Contact us",
   copy_right: <>© {new Date().getFullYear()} Personal Portfolio , All Right Receved.</>,
   logo: '/assets/img/logo/logo-white.png',

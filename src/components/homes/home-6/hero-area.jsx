@@ -8,7 +8,7 @@ import VideoModal from '../../common/modals/modal-video';
 const hero_contents = {
   title: <>Providing unparalleled <span className="tp-highlight"> <HighlightSix /> <i>IT business solution</i>
   </span> to maximum satisfaction</>,
-  sm_text: <>At collax we specialize in designing, building, shipping and scaling <br/> beautiful, usable products with blazing-fast efficiency</>,
+  sm_text: <>At Linear Graphic we specialize in designing, building, shipping and scaling <br/> beautiful, usable products with blazing-fast efficiency</>,
   video_id: 'AFHnVR1vb84',
   video_title: 'Behind the scenes',
   hero_img: '/assets/img/hero/hero-6.1.png',

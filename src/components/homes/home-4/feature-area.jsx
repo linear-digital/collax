@@ -11,19 +11,19 @@ const feature_contents = {
       id:1,
       icon:<FeatureOne/>,
       title:'Fast working process',
-      subtitle:<>At collax we specialize in designing, building, <br/> shipping and scaling beautiful.</>,
+      subtitle:<>At Linear Graphic we specialize in designing, building, <br/> shipping and scaling beautiful.</>,
     },
     {
       id:2,
       icon:<FeatureTwo/>,
       title:'Dedicated team',
-      subtitle:<>At collax we specialize in designing, building, <br/> shipping and scaling beautiful.</>,
+      subtitle:<>At Linear Graphic we specialize in designing, building, <br/> shipping and scaling beautiful.</>,
     },
     {
       id:3,
       icon:<FeatureThree/>,
       title:'24/7 hours support',
-      subtitle:<>At collax we specialize in designing, building, <br/> shipping and scaling beautiful.</>,
+      subtitle:<>At Linear Graphic we specialize in designing, building, <br/> shipping and scaling beautiful.</>,
     },
   ]
 }
