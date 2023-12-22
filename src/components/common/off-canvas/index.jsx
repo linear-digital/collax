@@ -47,11 +47,6 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 {menu_data.map((menu, i) => (
                  <li key={i} className={!menu.has_dropdown ? '' : navTitle === menu?.title ? "has-droupdown active" : "has-droupdown"}>
                     {menu.has_dropdown && <button  onClick={() => openMobileMenu(menu.title)}>{menu.title} </button>}
-                    <ul className={navTitle === menu?.title ? "sub-menu active" : "sub-menu"}>
-                      {menu?.sub_menus?.map((sub,i) => (
-                      <li key={i}><Link href={`${sub.link}`}>{sub.title}</Link></li>
-                      ))}
-                    </ul>
                     {!menu.has_dropdown && <Link href={menu.link}>{menu.title}</Link>}
                   </li>
                 ))}
@@ -62,10 +57,10 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             <span>Contact us</span>
             <ul>
               <li>
-                <i className="fas fa-star"></i> <a href="https://goo.gl/maps/abHegV4AoiJA6Syd8" rel="noreferrer" target="_blank">Melbone st, Australia, Ny 12099</a>
+                <i className="fas fa-star"></i> <a href="https://goo.gl/maps/abHegV4AoiJA6Syd8" rel="noreferrer" target="_blank">Maijdee Court, Noakhali, Bangladesh</a>
               </li>
-              <li><i className="fas fa-star"></i><a href="tel:8180012345678">+81 800 123 456 78</a></li>
-              <li><i className="fas fa-star"></i><a href="mailto:Collaxmail@gmail.com">Collaxmail@gmail.com</a></li>
+              <li><i className="fas fa-star"></i><a href="tel:+880 1610-139775">+880 1610-139775</a></li>
+              <li><i className="fas fa-star"></i><a href="mailto:lineardigital2024@gmaiil.com">lineardigital2024@gmaiil.com</a></li>
             </ul>
           </div>
           <div className="tpoffcanvas__input d-none d-sm-block">

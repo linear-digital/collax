@@ -9,7 +9,7 @@ import NewsLetter from './news-letter';
 import ProjectArea from './project-area';
 import ServicesArea from './services-area';
 import Testimonial from './testimonial';
-
+import Contact from '../../contact';
 const Home = () => {
   useEffect(() => {
     setTimeout(() => {
@@ -20,14 +20,14 @@ const Home = () => {
     <Wrapper>
       <Header />
       <HeroArea />
-      <CreativeArea/>
-      <BrandArea/>
-      <ServicesArea/>
-      <ProjectArea/>
-      <Testimonial/>
-      <BlogArea/>
-      <NewsLetter/>
-      <Footer/>
+      <CreativeArea />
+      <BrandArea />
+      <ServicesArea />
+      <ProjectArea />
+      <Testimonial />
+      <BlogArea />
+      {/* <NewsLetter/> */}
+      <Contact />
     </Wrapper>
   );
 };
