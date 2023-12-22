@@ -9,8 +9,8 @@ const ContactArea = () => {
           <div className="row">
             <div className="col-xl-6 col-lg-6 ">
               <div className="tp-contct-wrapper contact-space-40">
-                <div className="tp-contact-thumb mb-60">
-                  <img src="/assets/img/contact/contact-1.jpg" alt="" />
+                <div className="tp-contact-thumb mb-50">
+                  <img src="/AAAA.png" alt="" style={{height: "300px"}} />
                 </div>
                 <div className="tp-contact-info mb-40">
                   <h4 className="contact-title">Mail Address</h4>
