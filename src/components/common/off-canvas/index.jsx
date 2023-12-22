@@ -64,7 +64,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                 </a>
               </li>
               <li><i className="fas fa-star"></i><a href="tel:+8801610139775">+8801610139775</a></li>
-              <li><i className="fas fa-star"></i><a href="mailto:lineardigital2024@gmaiil.com">lineardigital2024@gmaiil.com</a></li>
+              <li><i className="fas fa-star"></i><a href="mailto:lineardigital2024@gmaiil.com">lineardigital2024@gmail.com</a></li>
             </ul>
           </div>
           <div className="tpoffcanvas__input d-none d-sm-block">
