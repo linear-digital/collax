@@ -17,7 +17,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
   const [navTitle, setNavTitle] = useState('')
 
   const openMobileMenu = (menu) => {
-    if(navTitle === menu){
+    if (navTitle === menu) {
       setNavTitle('')
     }
     else {
@@ -45,8 +45,8 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             <div className="mm-menu">
               <ul>
                 {menu_data.map((menu, i) => (
-                 <li key={i} className={!menu.has_dropdown ? '' : navTitle === menu?.title ? "has-droupdown active" : "has-droupdown"}>
-                    {menu.has_dropdown && <button  onClick={() => openMobileMenu(menu.title)}>{menu.title} </button>}
+                  <li key={i} className={!menu.has_dropdown ? '' : navTitle === menu?.title ? "has-droupdown active" : "has-droupdown"}>
+                    {menu.has_dropdown && <button onClick={() => openMobileMenu(menu.title)}>{menu.title} </button>}
                     {!menu.has_dropdown && <Link href={menu.link}>{menu.title}</Link>}
                   </li>
                 ))}
@@ -57,9 +57,13 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             <span>Contact us</span>
             <ul>
               <li>
-                <i className="fas fa-star"></i> <a href="https://goo.gl/maps/abHegV4AoiJA6Syd8" rel="noreferrer" target="_blank">Maijdee Court, Noakhali, Bangladesh</a>
+                <i className="fas fa-star"></i> <a href="https://goo.gl/maps/abHegV4AoiJA6Syd8" rel="noreferrer" target="_blank">
+                  Coyati Bari, Rathirumpur, Khalishpur, Begumgonj, 3842
+                  <br />
+                  Noakhali, Bangladesh
+                </a>
               </li>
-              <li><i className="fas fa-star"></i><a href="tel:+880 1610-139775">+880 1610-139775</a></li>
+              <li><i className="fas fa-star"></i><a href="tel:+8801610139775">+8801610139775</a></li>
               <li><i className="fas fa-star"></i><a href="mailto:lineardigital2024@gmaiil.com">lineardigital2024@gmaiil.com</a></li>
             </ul>
           </div>
