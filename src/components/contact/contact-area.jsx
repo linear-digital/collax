@@ -9,9 +9,9 @@ const ContactArea = () => {
           <div className="row">
             <div className="col-xl-6 col-lg-6 ">
               <div className="tp-contct-wrapper contact-space-40">
-                <div className="tp-contact-thumb mb-50">
+                <div className="tp-contact-thumb mb-40">
                   <img src="/AAAA.png" alt="" style={{height: "300px"}} />
-                  <h4 style={{marginTop: "20px",}}>Kamrun Islam Kashem</h4>
+
                 </div>
                 <div className="tp-contact-info mb-40">
                   <h4 className="contact-title">Mail Address</h4>
@@ -19,12 +19,14 @@ const ContactArea = () => {
                 </div>
                 <div className="tp-contact-info mb-40">
                   <h4 className="contact-title">Phone Number</h4>
-                  <span><a href="tel:(+880 1610-139775)">(+880 1610-139775)</a></span>
+                  <span><a href="tel:+8801610139775">+8801610139775</a></span>
                 </div>
                 <div className="tp-contact-info">
                   <h4 className="contact-title">Address line</h4>
-                  <span><a href="https://www.google.com/maps" target="blank">
-                    Maijdee Court, Noakhali, Bangladesh
+                  <span><a href="#" target="blank">
+                  Coyati Bari, Rathirumpur, Khalishpur, Begumgonj, 3842 
+                  <br />
+                   Noakhali, Bangladesh
                     </a></span>
                 </div>
               </div>
