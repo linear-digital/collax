@@ -15,7 +15,7 @@ const ContactArea = () => {
                 </div>
                 <div className="tp-contact-info mb-40">
                   <h4 className="contact-title">Mail Address</h4>
-                  <span><a href="mailto:(lineardigital2024@gmaiil.com)">lineardigital2024@gmail.com</a></span>
+                  <span><a href="mailto:(lineardigital2024@gmail.com)">lineardigital2024@gmail.com</a></span>
                 </div>
                 <div className="tp-contact-info mb-40">
                   <h4 className="contact-title">Phone Number</h4>
